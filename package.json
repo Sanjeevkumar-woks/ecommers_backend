@@ -1,0 +1,22 @@
+{
+  "name": "ecommers_backend",
+  "version": "1.0.0",
+  "description": "it is the backend for the ecommers ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "sanjeevkumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1",
+    "mongoos": "0.0.1-security",
+    "nodemon": "^2.0.20"
+  }
+}
